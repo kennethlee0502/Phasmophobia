@@ -1,0 +1,50 @@
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#container {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 700px;
+  flex-wrap: wrap;
+  text-shadow: 3px 5px 5px #ff0000;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: white 1px solid;
+  border-radius: 3rem;
+  background-color: rgba(110, 101, 101, 0.199);
+  padding: 30px;
+  text-shadow: 2px 2px 40px #ff0000;
+}
+
+body {
+  background-image: url("4485269.jpg");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 8px 8px 5px #ff0000;
+}
+h2 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  text-shadow: 8px 8px 5px #ff0000;
+}
+
+#container p:hover {
+  background-color: rgba(236, 14, 14, 0.521);
+  border-radius: 30px;
+}
